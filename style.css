@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Apfel Grotesk";
+    src: url("assets/fonts/ApfelGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gothique";
+    src: url("assets/fonts/FT88-Gothique.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Zara";
+    src: url("assets/fonts/Zara-Regular.woff") format("woff");
+}
+
+body {
+    font-family: "Apfel Grotesk", Arial, sans-serif;
+}
+
+#3dlogo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fullscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    border-radius: 0px;
+}
+
+#buttons {
+    font-family: "Apfel Grotesk";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    text-align: center;
+}
+
+button {
+    font-family: "Apfel grotesk", Arial, sans-serif; /* Correzione: Usa Zara per i bottoni */
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 10;
+    color: white;
+    background: none;
+    border: none;
+}

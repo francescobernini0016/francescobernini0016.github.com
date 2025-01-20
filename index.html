@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TENSIONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="tensione">
+        <h1>TENSIONE</h1>
+    </header>
+
+    <p>Hi there!</p>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+    <model-viewer id="3dlogo" class="fullscreen"
+        skybox-image="assets/skybox.jpg"
+        environment-image="assets/environment.hdr"
+        disable-zoom
+        camera-controls 
+        touch-action="pan-y"
+        camera-orbit="0deg 90deg 3m"
+        shadow-intensity="0"
+        alt="3D logo" 
+        src="assets/logobig.gltf"
+        orbit
+        auto-rotate
+        pan-sensitivity="1"
+    ></model-viewer>
+
+    <div id="buttons">
+        <button id="about">ABOUT</button>
+        <button id="next">NEXT EVENT</button>
+        <button id="contact">CONTACT</button>   
+        <button id="register">REGISTER</button>
+    </div>
+
+    <main>
+        <p>This is a basic HTML setup for your website.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Tensione Website. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
